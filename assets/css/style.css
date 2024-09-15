@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fluid
+{
+    background-color: white;
+}
+header
+{
+   width: 95%;
+   margin: 0 auto;
+   display: flex;
+   height: 80px;
+   align-items: center;
+   justify-content: space-between;
+   color: rgb(151, 13, 94);
+}
+#title
+{
+    
+    font-weight: 50;
+    width: 75%;
+    font-size: 24px;
+}
+.nav
+{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.row2
+{
+    width: 90%;
+    margin: 0 0 0 auto;
+    display: flex;
+}
+.message
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: rgb(143, 5, 85);
+    width: 35%;
+}
+.text-container div
+{
+    margin: 5% 0;
+}
+#welcome
+{
+    font-weight: 500;
+    margin-top: 20%;
+    font-size: 18px;
+}
+#quote
+{
+    font-weight: 300;
+    font-size: 60px;
+    padding-right: 2%;
+    margin-bottom: 10%;
+}
+#image1
+{
+    width: 65%;
+    height: 70%;
+    position: relative;
+}
+.dropdown-section
+{
+    border: 1px solid gray;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding: 15px;
+   
+}
+#dropdown
+{
+    border: 0px solid white;
+    color: gray;
+    width: 100%;
+    padding: 5px;
+}
+.button
+{
+    width: 30%;
+    height: 30px;
+    color: white;
+    background-color: rgb(139, 15, 87);
+    border: 1px solid rgb(139, 15, 87);
+}
+.destination
+{
+    width: 85%;
+    margin: 5% auto 0% auto;
+}
+.sub-heading
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(143, 5, 85);
+}
+.heading
+{
+    font-size: 32px;
+    font-weight: 600;
+}
+.info
+{
+    font-size: 20px;
+    font-weight: 150;
+}
+.places
+{
+    width: 100%;
+    height: 1430px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 0;
+    justify-content: space-between;
+}
+.places-elements
+{
+    width: 32%;
+    height: 45%; 
+}
+.places-image
+{
+    width: 100%;
+    height: 45%;
+}
+.places-heading
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    margin: 3% 0;
+    font-weight: lighter;
+}
+.place
+{
+    font-size: 16px;
+    margin: 3% 0;
+    font-weight: bold;
+}
+.places-description
+{
+    font-size: 17px;
+    margin: 5% 0;
+}
+.about
+{
+    background-color: rgb(243, 243, 243);
+}
+.about-container
+{
+    width: 45%;
+    height: 700px;
+    margin: 0% auto;
+    padding: 5% 0;
+}
+.about-form select
+{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+.about-form label
+{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal
+}
+.form-group
+{
+    margin: 5% 0;
+}
+
+
+.about-form input
+{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
